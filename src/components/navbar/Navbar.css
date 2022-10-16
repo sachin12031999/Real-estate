@@ -9,10 +9,13 @@
 
 .navbar .container {
     height: 100%;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding:1rem;
+   
+    
 }
 
 .navbar span {
@@ -34,6 +37,48 @@
 .navbar .icon {
     font-size: 1.5rem;
 }
+.active{
+    font-weight: bold;
+   
+}
+
+a:hover {
+    font-weight: bold;
+    color: #5651e5;
+   
+
+  }
+
+  .child {
+    display: none;
+  }
+  .child li:hover {
+    font-weight: bold;
+    color: #5651e5;
+   }
+   .downarrow:hover {
+    display: none;
+   }
+
+  .parents:hover  .child {
+    display: block;
+    color: #000;
+    justify-items: left;
+    padding-top: 0;
+    margin-bottom: auto;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    top: 55px;
+    height:auto;
+    width: auto;
+    background: rgba(255,255,255, .98) ;
+    border-radius: 25px;
+    z-index: 10;
+   
+ 
+  }
+
 
 @media screen and (max-width:940px) {
     .hamburger {

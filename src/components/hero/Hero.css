@@ -68,6 +68,10 @@
     align-items: center;
 
 }
+.radio input{
+   color: blue;
+
+}
 /* .search button{
  btn class index.css wala chal jayega
 } */

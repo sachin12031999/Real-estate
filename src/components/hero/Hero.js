@@ -14,8 +14,10 @@ const Hero =()=>{
                         <input type='text' placeholder="Enter  keyword"/>
                     </div>
                     <div className="radio">
-                        <input type='radio' checked />
+                        <input type='radio' defaultChecked />
                         <label> Buy</label>
+                        <input type='radio' />
+                        <label>Sell</label>
                         <input type='radio' />
                         <label>Rent</label>
                         <button type="submit" className="btn" ><AiOutlineSearch /></button>
