@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://sachin12031999.github.io/real-estate.github.io/).
+- This project created by sachin pandey [visit now on website](https://634ea65bf9c87802f0393438--glittery-cucurucho-5112e7.netlify.app/).
 
 ## Available Scripts
 
